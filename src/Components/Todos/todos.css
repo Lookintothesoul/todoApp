@@ -1,0 +1,43 @@
+.todos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 8px;
+}
+
+.todo-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-container > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  flex-grow: 1;
+  padding: 0.5rem 0;
+}
+
+.todo-container > div > * {
+  cursor: grab;
+}
+
+.todo-container > div > label {
+  flex-grow: 1;
+  text-align: start;
+}
+
+.filters-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.filters-container button.active {
+  border-color: #ffffff;
+  background: #3b3b3b;
+}

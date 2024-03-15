@@ -1,0 +1,9 @@
+.addTodo-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.addTodo-form input {
+  flex-grow: 1;
+}
